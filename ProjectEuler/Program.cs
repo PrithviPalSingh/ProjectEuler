@@ -14,8 +14,11 @@ namespace ProjectEuler
             //FindSum();
             //EvenSum();
             //LargestPrimeFactor();
-            PalindromeProblem p = new PalindromeProblem();
-            p.PrintPalindrome();
+            //PalindromeProblem p = new PalindromeProblem();
+            //p.PrintPalindrome();
+
+            SmallestMultiple sm = new SmallestMultiple();
+            Console.WriteLine(sm.FindSmallestMultiple(10));
             Console.Read();
         }
 
