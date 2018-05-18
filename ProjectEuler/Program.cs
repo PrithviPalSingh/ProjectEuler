@@ -13,12 +13,9 @@ namespace ProjectEuler
         {
             //FindSum();
             //EvenSum();
-            LargestPrimeFactor();
-            //for (int i = 1; i <= 100; i++)
-            //{
-            //    Console.WriteLine(i + " is prime: " + IsPrime(i));
-            //}
-            //Console.WriteLine(IsPrime(17));
+            //LargestPrimeFactor();
+            PalindromeProblem p = new PalindromeProblem();
+            p.PrintPalindrome();
             Console.Read();
         }
 
